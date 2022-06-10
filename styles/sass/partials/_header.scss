@@ -23,22 +23,22 @@ header{
         justify-content: space-between;
         align-items: center;
 
-        .burger{
-            width: 55vh;
-        }
-        h1{
-            font-size: 7.3rem;
-            color: $siteMainColor;
-            line-height: 120px;
-        }
-        i{
-            width: 50px;
-            color: $siteMainColor;
-        }
-        li{
-            margin: 0 10px 15px;
-            list-style: none;
-            display: block;
-        }
+            .burger{
+                width: 55vh;
+            }
+            h1{
+                font-size: 7.3rem;
+                color: $siteMainColor;
+                line-height: 120px;
+            }
+            i{
+                width: 50px;
+                color: $siteMainColor;
+            }
+            li{
+                margin: 20PX;
+                list-style: none;
+                display: block;
+            }
     }
 }

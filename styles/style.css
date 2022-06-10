@@ -230,6 +230,12 @@ html {
   font-size: 125%;
 }
 
+.wrapper {
+  max-width: 1080px;
+  width: 40%;
+  margin: 0 auto;
+}
+
 header nav ul {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -273,7 +279,37 @@ header .hangryTummy i {
   color: #E75605;
 }
 header .hangryTummy li {
-  margin: 0 10px 15px;
+  margin: 20PX;
   list-style: none;
   display: block;
+}
+
+.new {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+.new h2 {
+  font-size: 42px;
+  color: #E75605;
+  text-transform: uppercase;
+}
+.new button {
+  font-size: 20px;
+  text-transform: uppercase;
+  border: #E75605 solid 2px;
+  background-color: white;
+  padding: 5px;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 700;
+  line-height: 29px;
+}
+.new img {
+  width: 55vh;
 }

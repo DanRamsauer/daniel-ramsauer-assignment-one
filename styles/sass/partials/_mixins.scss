@@ -1,0 +1,16 @@
+@mixin headers{
+    font-size: 42px;
+    color: $siteMainColor;
+    text-transform: uppercase;
+}
+
+@mixin buttons{
+    font-size: 20px;
+    text-transform: uppercase;
+    border: $siteMainColor solid 2px;
+    background-color: white;
+    padding: 5px;
+    font-family: $montserratFont;
+    font-weight: $bold;
+    line-height: 29px;
+}
