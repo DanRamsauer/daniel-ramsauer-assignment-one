@@ -2,6 +2,8 @@
     font-size: 42px;
     color: $siteMainColor;
     text-transform: uppercase;
+    font-family: $montserratFont;
+    font-weight: $bold;
 }
 
 @mixin buttons{
@@ -12,5 +14,12 @@
     padding: 5px;
     font-family: $montserratFont;
     font-weight: $bold;
+    line-height: 29px;
+}
+
+@mixin bodyText {
+    font-family: $catamaranFont;
+    font-size: 20px;
+    font-weight: $regular;
     line-height: 29px;
 }

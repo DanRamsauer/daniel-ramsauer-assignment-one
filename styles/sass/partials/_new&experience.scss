@@ -1,10 +1,14 @@
-.new{
+.new,
+.experience{
     display: flex;
     justify-content: center;
     align-items: center;
 
         h2{
             @include headers;
+        }
+        p{
+            @include bodyText;
         }
         button{
             @include buttons;
