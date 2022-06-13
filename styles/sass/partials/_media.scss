@@ -22,16 +22,80 @@
     }
 }
 
-@media (max-width: 860){
+@media (max-width: 860px){
     // turn into tablet 
 
 }
 
-@media (max-width: 790){
+@media (max-width: 790px){
     //turn into phone
-    main{
-       display: flex;
-       flex-direction: column-reverse;
+    .hangryTummy{
+        h1{
+            text-align: end;
+        }
+        .burger{
+            width: 100%;
+            margin: 0 auto;
+        }
+    }
+
+    .wrapper{
+        width: 90%;
+    }
+
+    .new,
+    .experience,
+    .deserts{
+        display: flex;
+        flex-direction: column-reverse;
+
+            img{
+                width: 100%;
+            }
+            p{
+                text-align: center;
+            }
+            .centerButton{
+                display: flex;
+                justify-content: center;
+            }
+            h2{
+                text-align: center;
+            }
+    }
+
+    .experience,
+    .deserts{
+        flex-direction: column;
+    }
+
+    .deserts{
+        p{
+            text-align: start;
+        }
+        .wrapper{
+            width: 90%;
+        }
+    }
+
+    .contact{
+        .flexContainer{
+            flex-direction: column;
+        }
+        .stayUpdated{
+            padding: 0;
+            margin: 40px 0 0;
+
+                button{
+                    width: 100%;
+                }
+                input[type=text]{
+                    width: 100%;
+                }
+        }
+        h3,
+        p{
+            text-align: center;
+        }
     }
 }
-

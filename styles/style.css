@@ -467,9 +467,89 @@ footer h3 {
     width: 100%;
   }
 }
-@media (max-width: 790) {
-  .new .flex{
+@media (max-width: 790px) {
+  .hangryTummy h1 {
+    text-align: end;
+  }
+  .hangryTummy .burger {
+    width: 100%;
+    margin: 0 auto;
+  }
+
+  .wrapper {
+    width: 90%;
+  }
+
+  .new,
+.experience,
+.deserts {
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    flex-direction: column;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: reverse;
+        -ms-flex-direction: column-reverse;
+            flex-direction: column-reverse;
+  }
+  .new img,
+.experience img,
+.deserts img {
+    width: 100%;
+  }
+  .new p,
+.experience p,
+.deserts p {
+    text-align: center;
+  }
+  .new .centerButton,
+.experience .centerButton,
+.deserts .centerButton {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  .new h2,
+.experience h2,
+.deserts h2 {
+    text-align: center;
+  }
+
+  .experience,
+.deserts {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+
+  .deserts p {
+    text-align: start;
+  }
+  .deserts .wrapper {
+    width: 90%;
+  }
+
+  .contact .flexContainer {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .contact .stayUpdated {
+    padding: 0;
+    margin: 40px 0 0;
+  }
+  .contact .stayUpdated button {
+    width: 100%;
+  }
+  .contact .stayUpdated input[type=text] {
+    width: 100%;
+  }
+  .contact h3,
+.contact p {
+    text-align: center;
   }
 }
