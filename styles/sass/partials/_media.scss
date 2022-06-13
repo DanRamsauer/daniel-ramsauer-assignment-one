@@ -1,18 +1,37 @@
-@media (max-width: 1150px){
-
-}
-
-@media (max-width: 1050px){
+@media (max-width: 1360px){
     .hangryTummy{
         flex-direction: column-reverse;
-
-            .burger{
-                width: 100vh;
+            h1{
+                @include headers;
+                font-size: 4rem;
+                margin: 0;
             }
+            .burger{
+                width: 70%
+            }
+            ul{
+                display: flex;
+                margin: 0 auto;
+            }
+            img{
+                margin-right: 600px;
+            }
+    }
+    .contact{
+        width: 100%;
     }
 }
 
-@media (max-width: 500){
+@media (max-width: 860){
+    // turn into tablet 
 
+}
+
+@media (max-width: 790){
+    //turn into phone
+    main{
+       display: flex;
+       flex-direction: column-reverse;
+    }
 }
 

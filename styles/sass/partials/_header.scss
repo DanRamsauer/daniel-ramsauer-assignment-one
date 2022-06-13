@@ -17,23 +17,25 @@ header{
             line-height: 29px;
         }
     }
+    h1{
+        font-size: 7.3rem;
+        color: $siteMainColor;
+        line-height: 120px;
+    }
     // -----------header section after nav-------------------
     .hangryTummy{
         display: flex;
         justify-content: space-between;
         align-items: center;
 
-            h1{
-                font-size: 7.3rem;
-                color: $siteMainColor;
-                line-height: 120px;
+            ul{
+                padding: 0;
             }
             i{
-                width: 50px;
                 color: $siteMainColor;
             }
             li{
-                margin: 20PX;
+                margin: 20px;
                 list-style: none;
                 display: block;
             }
