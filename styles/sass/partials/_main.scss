@@ -1,5 +1,6 @@
 .new,
-.experience{
+.experience,
+.deserts{
     display: flex;
     justify-content: center;
     align-items: center;
@@ -16,4 +17,13 @@
         img{
             width: 55vh;
         }
+}
+.deserts{
+    margin: 70px 50px;
+    img{
+        width: 20vh;
+    }
+    .wrapper{
+        width: 70%;
+    }
 }

@@ -285,7 +285,8 @@ header .hangryTummy li {
 }
 
 .new,
-.experience {
+.experience,
+.deserts {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -297,7 +298,8 @@ header .hangryTummy li {
           align-items: center;
 }
 .new h2,
-.experience h2 {
+.experience h2,
+.deserts h2 {
   font-size: 42px;
   color: #E75605;
   text-transform: uppercase;
@@ -305,14 +307,16 @@ header .hangryTummy li {
   font-weight: 700;
 }
 .new p,
-.experience p {
+.experience p,
+.deserts p {
   font-family: "Catamaran", sans-serif;
   font-size: 20px;
   font-weight: 400;
   line-height: 29px;
 }
 .new button,
-.experience button {
+.experience button,
+.deserts button {
   font-size: 20px;
   text-transform: uppercase;
   border: #E75605 solid 2px;
@@ -323,6 +327,107 @@ header .hangryTummy li {
   line-height: 29px;
 }
 .new img,
-.experience img {
+.experience img,
+.deserts img {
   width: 55vh;
+}
+
+.deserts {
+  margin: 70px 50px;
+}
+.deserts img {
+  width: 20vh;
+}
+.deserts .wrapper {
+  width: 70%;
+}
+
+.contact {
+  background-color: lightgrey;
+}
+.contact h3 {
+  font-size: 42px;
+  color: #E75605;
+  text-transform: uppercase;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 700;
+  margin: 10px auto;
+}
+.contact p {
+  font-family: "Catamaran", sans-serif;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 29px;
+}
+.contact label {
+  font-family: "Catamaran", sans-serif;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 29px;
+}
+.contact ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+.contact li {
+  list-style: none;
+  margin: 50px 17px;
+}
+.contact a {
+  text-decoration: none;
+  text-transform: uppercase;
+  color: black;
+  font-size: 1.25rem;
+  line-height: 29px;
+}
+.contact .contact p {
+  margin: 0 auto;
+}
+.contact .flexContainer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  margin: 10px 90px 0 90px;
+  padding-bottom: 50px;
+}
+.contact input[type=text] {
+  width: 70%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  border: none;
+}
+.contact button {
+  font-size: 20px;
+  text-transform: uppercase;
+  border: #E75605 solid 2px;
+  background-color: white;
+  padding: 5px;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 700;
+  line-height: 29px;
+}
+
+footer {
+  background-color: black;
+}
+footer h3 {
+  margin: 0 auto;
+  text-align: center;
+  color: gray;
+  font-family: "Catamaran", sans-serif;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 29px;
+  font-size: 18px;
+  padding: 5px;
 }

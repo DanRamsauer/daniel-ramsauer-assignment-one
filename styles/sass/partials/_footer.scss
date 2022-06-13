@@ -1,0 +1,12 @@
+footer{
+    background-color: black;
+
+        h3{
+            margin: 0 auto;
+            text-align: center;
+            color: gray;
+            @include bodyText;
+            font-size: 18px;
+            padding: 5px;
+        }
+}
