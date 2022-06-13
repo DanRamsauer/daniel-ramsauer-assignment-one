@@ -38,7 +38,7 @@
             padding-bottom: 50px;
         }
         input[type=text] {
-            width: 70%;
+            min-width: 70%;
             padding: 12px 20px;
             margin: 8px 0;
             display: inline-block;
@@ -47,5 +47,8 @@
         }
         button{
             @include buttons;
+        }
+        .stayUpdated{
+            padding-left: 110px;
         }
 }

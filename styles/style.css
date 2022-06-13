@@ -266,9 +266,6 @@ header .hangryTummy {
       -ms-flex-align: center;
           align-items: center;
 }
-header .hangryTummy .burger {
-  width: 55vh;
-}
 header .hangryTummy h1 {
   font-size: 7.3rem;
   color: #E75605;
@@ -398,7 +395,7 @@ header .hangryTummy li {
   padding-bottom: 50px;
 }
 .contact input[type=text] {
-  width: 70%;
+  min-width: 70%;
   padding: 12px 20px;
   margin: 8px 0;
   display: inline-block;
@@ -416,6 +413,9 @@ header .hangryTummy li {
   font-weight: 700;
   line-height: 29px;
 }
+.contact .stayUpdated {
+  padding-left: 110px;
+}
 
 footer {
   background-color: black;
@@ -430,4 +430,16 @@ footer h3 {
   line-height: 29px;
   font-size: 18px;
   padding: 5px;
+}
+
+@media (max-width: 1050px) {
+  .hangryTummy {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: reverse;
+        -ms-flex-direction: column-reverse;
+            flex-direction: column-reverse;
+  }
+  .hangryTummy .burger {
+    width: 100vh;
+  }
 }
